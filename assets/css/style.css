@@ -591,7 +591,8 @@ footer input{
   border: none;
   padding: 0.8em;
   color: white;
-  border-radius: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
 }
 
 footer hr{
@@ -645,7 +646,21 @@ footer p{
       }
       
 
+.oops>h1,h6{
+text-transform: capitalize;
+text-align: center;
+color: white;
+margin-bottom: .2em ;
+}
 
+
+.oops>h1{
+font-size: 7em;
+}
+.oops>h6{
+font-size: 2em;
+margin: 0;
+}
 
 
 
@@ -760,4 +775,16 @@ html{
   .featured .cards{
     flex-direction: column;
   }
+}
+
+@media screen and (max-width:315px) {
+  .oops>h1,h6{
+    margin-bottom: .1em ;
+    }
+    
+    
+    .oops>h1{
+    font-size: 5em;
+    }
+  
 }
